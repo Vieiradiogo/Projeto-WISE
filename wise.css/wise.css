@@ -9,6 +9,8 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #221F53;
+
     
 
 }
@@ -41,11 +43,14 @@ header ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: color 0.3s ease;
     
 }
-
 header ul a{
     color: #fff;
+}
+header ul a:hover {
+    color: #1DA1F2;
 }
 
 
@@ -68,11 +73,12 @@ header ul a{
 section{
     
 }
-
-.projetos h1 {
+/*section projetos*/
+.projetos h2 {
     text-align: center;
     font-size: 50px; 
-    margin-top: 20px; 
+    margin-top: 150px; 
+    color: #fff;
 }
 .projetos .images{
     display: flex;
@@ -86,20 +92,97 @@ section{
     height: auto; 
     margin: 10px; 
     margin: 0 25px; 
+    border-radius: 30px;
 }
-
-.licenciatura h2{
+/*section licenciatura*/
+.licenciatura h1{
     text-align: center;
     font-size: 50px; 
-    margin-top: 50px; 
+    margin-top: 150px; 
+    color: #fff;
+}
+
+.licenciatura .flex{
+    display: flex;
+    justify-content: space-between;
 }
 
 .licenciatura p{
-    text-align: left;
-    font-size: 40px; 
-    margin-top: 50px; 
+    margin-left: 150px;
+    font-size: 35px; 
+    margin-top: 50px;
+    color: #fff; 
 }
 
+.licenciatura button{
+    background: green;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-right: 500px;
+}
+
+/*section escaperoom*/
+.escaperoom{
+
+}
+.escaperoom h3{
+    text-align: center;
+    font-size: 50px; 
+    margin-top: 150px; 
+    color: #fff;
+
+}
+
+.escaperoom .flex{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.escaperoom .grid{
+    display: grid;
+    margin-right: 200px;
+}
+
+.escaperoom img {
+
+    max-width: 200px; 
+    height: 250px; 
+    margin: 10px; 
+    margin: 0 25px; 
+    border-radius: 30px;
+    margin-left: 600px;
+    margin-top: 50px;
+    
+
+}
+ 
+.escaperoom p{
+    
+    margin-top: 70px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 400px;
+
+}
+
+.escaperoom h4{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 400px;
+}
+
+.escaperoom button{
+    background: green;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-right: 250px;
+
+}
 /* sobre tsiw css*/
 
 
@@ -128,4 +211,67 @@ section{
 .foco_licenciatura img{
     align-items: end;
 
+}
+
+
+
+
+
+
+
+
+
+/* footer*/
+
+footer {
+    background-color: #0F142C;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px; 
+    margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.imagens {
+    display: flex;
+    gap: 30px; 
+    margin-left: 100px ; 
+}
+
+.imagens img {
+    height: 30px; 
+}
+
+.texto {
+    
+        
+    font-size: 12px; 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 00px;
+    
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    margin-right: 150px;
+    
+}
+
+.icons a {
+    color: #fff;
+    font-size: 18px; 
+    transition: color 0.3s ease;
+}
+
+.icons a:hover {
+    color: #1DA1F2;
 }
