@@ -190,29 +190,44 @@ section{
 .Titulo{
     font-size: 50px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    color: #fff;
 }
 
+.foco_licenciatura{
+    display: flex;
+    justify-content: space-between;
 
+}
 
 .foco_licenciatura h1{
     text-align:left;
     font-size: 40px;
-    margin-left: 35px;
-    margin-top: 30px;
+    margin-left: 250px;
+    margin-top: 80px;
+    color: #fff;
 }
 
 .foco_licenciatura p{
     font-size: 25px;
     text-align: left;
-    margin-left: 35px;
+    margin-left: 250px;
+    color: #fff;
 }
 
 .foco_licenciatura img{
-    align-items: end;
+    margin-right: 600px;
+    margin-top: 80px;
+
 
 }
 
+hr{
+    margin-top: 20px;
+    width: 1500px;
+    margin-left: 200px;
+    opacity: 0.5;
+}
 
 
 
@@ -275,3 +290,4 @@ footer {
 .icons a:hover {
     color: #1DA1F2;
 }
+
