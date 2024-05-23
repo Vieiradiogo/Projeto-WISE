@@ -10,6 +10,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #221F53;
+    height: auto;
 
     
 
@@ -67,6 +68,7 @@ header ul a:hover {
 .foco_licenciatura{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 
 }
 
@@ -125,12 +127,29 @@ hr{
 }
 
 .text3 h1{
+    text-align:left;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 80px;
+    color: #fff;
+
+
 
 }
 .text3 p{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 100px;
+    color: #fff;
 
 }
-.img2{
+.img3{
+    margin-right: 700px;
+    margin-top: 25px;
+    margin-right: 200px;
+    height: 250px;
+    width: 200px;
+
     
 }
 /* footer*/
@@ -141,6 +160,8 @@ footer {
     color: #fff;
     font-size: 14px; 
     margin-top: 100px;
+    height: 100px;
+    
 }
 
 .footer-container {
@@ -153,11 +174,11 @@ footer {
 .imagens {
     display: flex;
     gap: 30px; 
-    margin-left: 100px ; 
 }
 
 .imagens img {
     height: 30px; 
+    margin-bottom: 50px;
 }
 
 .texto {
