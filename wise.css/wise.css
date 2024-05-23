@@ -108,8 +108,8 @@ section{
 }
 
 .licenciatura p{
-    margin-left: 150px;
-    font-size: 35px; 
+    margin-left: 180px;
+    font-size: 25px; 
     margin-top: 50px;
     color: #fff; 
 }
@@ -118,8 +118,9 @@ section{
     background: green;
     border-radius: 30px;
     font-size: 25px;
-    margin-top: 150px;
-    margin-right: 500px;
+    margin-top: 125px;
+    margin-right: 450px;
+    width: 150px;
 }
 
 /*section escaperoom*/
@@ -137,6 +138,7 @@ section{
 .escaperoom .flex{
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 
     
 }
@@ -150,10 +152,11 @@ section{
 
     max-width: 200px; 
     height: 250px; 
+    width: 200px;
     margin: 10px; 
     margin: 0 25px; 
     border-radius: 30px;
-    margin-left: 600px;
+    margin-left: 350px;
     margin-top: 50px;
     
 
@@ -164,7 +167,7 @@ section{
     margin-top: 70px;
     font-size: 20px;
     color: #fff;
-    margin-right: 400px;
+    
 
 }
 
@@ -172,7 +175,6 @@ section{
     color: #fff;
     font-size: 25px;
     margin-top: 20px;
-    margin-right: 400px;
 }
 
 .escaperoom button{
