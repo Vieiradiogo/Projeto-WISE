@@ -73,7 +73,7 @@ header ul a:hover {
 .foco_licenciatura h1{
     text-align:left;
     font-size: 40px;
-    margin-left: 250px;
+    margin-left: 100px;
     margin-top: 80px;
     color: #fff;
 }
@@ -81,25 +81,58 @@ header ul a:hover {
 .foco_licenciatura p{
     font-size: 25px;
     text-align: left;
-    margin-left: 250px;
+    margin-left: 100px;
     color: #fff;
 }
 
 .foco_licenciatura img{
     margin-right: 600px;
     margin-top: 80px;
+    margin-right: 200px;
 
 
 }
 
 hr{
     margin-top: 20px;
-    width: 1500px;
-    margin-left: 200px;
+    width: 1050px;
+    margin-left: 100px;
     opacity: 0.5;
 }
 
+.text2 h1{
+    text-align:left;
+    font-size: 40px;
+    margin-right: 150px;
+    margin-top: 80px;
+    color: #fff;
 
+
+}
+
+.text2 p{
+
+    font-size: 25px;
+    text-align: left;
+    margin-right: 150px;
+    color: #fff;
+
+}
+
+.img2{
+    margin-left: 100px ;
+    margin-top: 80px;
+}
+
+.text3 h1{
+
+}
+.text3 p{
+
+}
+.img2{
+    
+}
 /* footer*/
 
 footer {
