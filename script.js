@@ -1,16 +1,3 @@
-/*navbar*/
-
-window.addEventListener("scroll", function() {
-    var navbar = document.querySelector(".navbar");
-    navbar.classList.toggle("sticky", window.scrollY > 0);
-});
-
-
-/*parcerias*/
-
-
-
-/*login*/
 document.addEventListener('DOMContentLoaded', () => {
     const wrapper = document.querySelector('.wrapper');
     const loginLink = document.querySelector('.login-link');

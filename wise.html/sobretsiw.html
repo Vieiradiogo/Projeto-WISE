@@ -6,7 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/wise.css/sobretsiw.css">
-    <link rel="stylesheet" href="/wise.jss/wise.js">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <div class="background"></div>
@@ -18,9 +20,65 @@
         <ul><a href="escaperoom.html"> Escape Room</a></ul></ul>
         <ul><a href="">Testemunhos</a></ul>
         <ul><a href=""> Atividades</a></ul>
-        <ul><a href=""><i class="fa-solid fa-user"></i></a></ul>
+        <ul><a href="" class="btnlogin-popup"><i class="fa-solid fa-user"></i></a></ul>
         
     </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Palavra-passe</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">lembrar</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Dont have an account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Register</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input type="text" required>
+                    <label>username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Palavra-passe</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Aceitar termos</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Alredy have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
     
     <section>
         <div class="Titulo">Sobre TSIW</div>
@@ -61,7 +119,38 @@
 
         </div>
 
+        <hr>
+        <div class="parcerias">
+            <h1>Parcerias</h1>
+            <p> O curso privilegia ainda uma vertente eminentemente prática, como o demonstram os projetos <br>incluídos no seu plano de estudos desde o 1.º ano, assim como uma forte ligação ao meio <br> empresarial. Prova disso é o alargado leque de parceiros tecnológicos do curso</p>
+            <div class="image_slider">
+                <div class="image">
+                    <img src="/assects/imagem parcerias 1.jpg" alt="">
+                </div>
 
+                <div class="image">
+                    <img src="/assects/imagens parcerias 2.jpg" alt="">
+                </div>
+
+                <div class="image">
+                    <img src="/assects/parcerias 3.jpg" alt="">
+                </div>
+
+                <div class="image">
+                    <img src="/assects/imagens parcerias 4.jpg" alt="">
+                </div>
+
+                <div class="image">
+                    <img src="/assects/imagem parcerias 5.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+        
+            
+        
+
+        
 
 
 
@@ -85,6 +174,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>
