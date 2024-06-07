@@ -55,29 +55,30 @@ header ul a:hover {
 }
 
 /* login*/
+
 .wrapper {
-    position: relative;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
     width: 400px;
     height: 440px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
-    margin-top: 100px;
-    margin-left: 500px;
-    align-self: center;
     color: #fff;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(100px);
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    transition: transform .5s ease, height .2s ease;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    z-index: 100;
 }
 
 .wrapper.active-popup {
-    transform: scale(1);
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .wrapper.active {
@@ -91,21 +92,23 @@ header ul a:hover {
 
 .wrapper.active .form-box.login {
     transition: none;
-    transform: translate(-400px);
+    transform: translateX(-400px);
 }
 
 .wrapper .form-box.login {
-    transition: transform .18s ease;
+    transition: transform 0.18s ease;
     transform: translateX(0);
 }
 
 .wrapper .form-box.register {
     position: absolute;
-    transition: none;
+    transition: transform 0.18s ease;
     transform: translateX(400px);
 }
 
-.wrapper.active .form-box.register {}
+.wrapper.active .form-box.register {
+    transform: translateX(0);
+}
 
 .wrapper .icon-close {
     position: absolute;
@@ -226,8 +229,7 @@ header ul a:hover {
 
 .login-register p a:hover {
     text-decoration: underline;
-}
-
+}s
 
 
 
